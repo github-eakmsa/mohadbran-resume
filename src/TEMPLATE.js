@@ -7,20 +7,19 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import SnapchatIcon from '@mui/icons-material/Twitter';
-import PinterestIcon from '@mui/icons-material/Twitter';
+import GithubIcon from '@mui/icons-material/GitHub';
 
 
 // Data object that contains all of the data for the template.
 const data = {
     profile: {
-        name: "Sara Friends",
-        address: "C Java Place, Lowell, MA 07646",
+        name: "Mohammedbrhan Abdelkadr",
+        address: "Addis Ababa, Ethiopia",
         avatar: "https://mui.com/static/images/avatar/1.jpg",
         contacts: [
-            { icon: PhoneIcon, label: "Phone", value: "(978) 123-4567" },
-            { icon: EmailIcon, label: "Email", value: "sara_friends@student.uml.edu" },
-            { icon: HomeIcon, label: "Address", value: "123 Main St, City, Country" }
+            { icon: PhoneIcon, label: "Phone", value: "(+251) 927 73 45 04" },
+            { icon: EmailIcon, label: "Email", value: "eakmsa@gmail.com" },
+            { icon: HomeIcon, label: "Address", value: "Kolfe Keraniyo, Addis Ababa, Ethiopia" }
         ],
         skills: [
             { category: "Programming Languages:", skills: "C/C++, Java, Assembly" },
@@ -29,12 +28,11 @@ const data = {
             { category: "Documentation:", skills: "MS Word, Excel, PowerPoint & Visio" },
         ],
         socialMedia: [
-            { icon: FacebookIcon },
-            { icon: InstagramIcon },
-            { icon: LinkedInIcon },
-            { icon: TwitterIcon },
-            { icon: SnapchatIcon },
-            { icon: PinterestIcon },
+            { icon: FacebookIcon, link: "facebook.com" },
+            { icon: InstagramIcon, link: "facebook.com" },
+            { icon: LinkedInIcon, link: "facebook.com" },
+            { icon: TwitterIcon, link: "facebook.com" },
+            { icon: GithubIcon, link: "facebook.com" },
         ],
         education: [
             {
@@ -80,7 +78,7 @@ const data = {
     },
 
     posts: {
-        name: "Sara Friends",
+        name: "Mohammedbrhan Abdelkadr",
         avatar: "https://mui.com/static/images/avatar/1.jpg",
         background_image: "https://source.unsplash.com/random?wallpapers",
         post_data: [

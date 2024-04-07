@@ -74,8 +74,8 @@ export default function ResumePortfolio({ profile }) {
                         </Typography>
                         <Box sx={{ mt: 2, textAlign: 'center' }}>
                             {profile.socialMedia.map((media, index) => (
-                                <IconButton color="primary" key={index}>
-                                    <media.icon />
+                                <IconButton color="primary" key={index} component="a" href={media.link}>
+                                    <media.icon />                                    
                                 </IconButton>
                             ))}
                         </Box>
