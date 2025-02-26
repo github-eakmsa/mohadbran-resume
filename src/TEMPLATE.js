@@ -17,8 +17,8 @@ const data = {
     summary:
       "I am a Fullstack Web Developer with 6+ years of work Experience in Analyzing, Designing, Developing and Integrating Front-End & Back-End based applications. I am capable of developing Back-End applications and APIs using PHP and MySQL. I also have Experience in developing Front-End applications and API clients using HTML, CSS, JavaScript, and Bootstrap. Currently, I am Learning and working with Laravel, Drupal, ReactJs, Nodejs, and ExpressJs heading towards the MERN-Stack. ",
     contacts: [
-      { icon: PhoneIcon, label: "Phone", value: "(+251) 927 73 45 04" },
-      { icon: EmailIcon, label: "Email", value: "eakmsa@gmail.com" },
+      { icon: PhoneIcon, label: "Phone", value: "+251 996 076 766, +251 927 734 504 - (SMS is preferred)" },
+      { icon: EmailIcon, label: "Email", value: "mohadbran@gmail.com" },
       {
         icon: HomeIcon,
         label: "Address",
@@ -70,7 +70,7 @@ const data = {
         degree: "B.Sc. - in Computer Science",
         date: "Sep 2013 - Jul 2016",
         school: "Mekelle University - Mekelle, Ethiopia",
-        gpa: "Overall GPA: 3.33, GPA in Major: 3.50",
+        // gpa: "Overall GPA: 3.33, GPA in Major: 3.50",
       },
     ],
     experience: [
